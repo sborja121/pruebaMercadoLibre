@@ -1,7 +1,7 @@
 # Prueba MercadoLibre
 - Version 1.0 - Santiago Borja Monsalve
 
-## Inicialiar la aplicacion
+## Inicializar la aplicacion
 ```sh
 nodemon api.js
 ```
