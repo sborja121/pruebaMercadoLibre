@@ -1,0 +1,37 @@
+"dependencies":{
+
+    "body-parser": "^1.19.0"
+
+
+    Usualmente el cuerpo de una peticion (payload), contiene información desde una petición tipo POST cuando un cliente desea crear una nueva 
+    entidad/registro o actualizar uno existente mediante PUT. Los desarrolladores quienes implementan servidores, requieren frecuentemente accesar 
+    a la información del cuerpo de dicha petición.
+
+    El módulo npm body-parser permite realizar esta tarea. No es necesario programarla. Solo se requiere instalar body-parser y habilitar json() así 
+    como url-encode como middlewares para convertir datos a JSON.
+
+    
+    "cors": "^2.8.1",
+
+    es un mecanismo que utiliza encabezados adicionales HTTP para permitir que un user agent obtenga permiso para acceder a recursos seleccionados 
+    desde un servidor, en un origen distinto (dominio), al que pertenece.
+
+    "express": "^4.18.1",
+
+    Espress.js, según sus creadores, es un framework de desarrollo de aplicaciones web minimalista y flexible para Node.js". Está inspirado en Sinatra, 
+    además es robusto, rápido, flexible y muy simple. Entre otras características, ofrece Router de URL (Get, Post, Put …), facilidades para motores de
+    plantillas (Jade, EJS, JinJS …), Middeleware via Connect y un buen test coverage
+
+
+    "lodash": "^4.17.20"
+
+    Lodash nace como un fork de Underscore.js, pero con el tiempo ha ido evolucionando hasta convertirse hoy en día en la librería de javascript más 
+    famosa para proveer funcionalidades sobre las colecciones de objetos.
+
+},
+
+"devDependencies": {
+    "nodemon": "2.0.16"
+
+    Nodemon es una utilidad que monitorea los cambios en el codigo fuente que se esta desarrollando y automaticamente reinicial el servidor
+  }
